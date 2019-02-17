@@ -1,0 +1,63 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<com.synnapps.carouselview.CarouselView
+    android:layout_width="match_parent"
+    android:id="@+id/carouselview"
+    android:layout_height="300dp"></com.synnapps.carouselview.CarouselView>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       
+       android:orientation="vertical"
+       >
+
+       <Button
+           android:id="@+id/b1"
+           android:layout_width="match_parent"
+           android:layout_height="120dp"
+           android:text="UPLOAD PROFILE"
+           android:textSize="40dp"
+           android:textStyle="italic|bold"
+           android:textColor="@color/colorPrimary"
+           android:background="@drawable/logins"/>
+
+
+
+   </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:weightSum="2">
+
+
+           <Button
+               android:id="@+id/b2"
+               android:layout_weight="1"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Search for donor"
+               android:textSize="25dp"
+               android:textStyle="bold|italic"
+               android:background="@color/myColor"/>
+
+
+
+           <Button
+               android:layout_weight="1"
+               android:id="@+id/b3"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Search for hospital"
+               android:textSize="25dp"
+               android:textStyle="bold|italic"
+               android:background="@color/myColor"/>
+       </LinearLayout>
+
+
+
+</LinearLayout>

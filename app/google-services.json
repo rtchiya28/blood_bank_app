@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "714945411880",
+    "firebase_url": "https://my-smile-blood-bank.firebaseio.com",
+    "project_id": "my-smile-blood-bank",
+    "storage_bucket": "my-smile-blood-bank.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714945411880:android:e124750e39e65893",
+        "android_client_info": {
+          "package_name": "com.example.arti.Smile_blood_bank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714945411880-7toua3mnhgjc54qdd5jn797p8jvt2ale.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjN0herUeQOBXABxu715-lQenhZG87kZM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

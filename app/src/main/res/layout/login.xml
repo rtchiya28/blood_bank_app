@@ -1,0 +1,57 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b5"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <include layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/background2"
+        android:hint="Email id"
+        android:padding="10dp"
+        android:textColor="#000" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/et2"
+        android:textColor="#000"
+        android:background="@drawable/background2"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button_back"
+        android:shadowColor="@color/toolbar_end"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/bt1"
+        android:text="Login"
+        android:layout_marginTop="100dp"/>
+
+
+
+
+
+</LinearLayout>
+
+
+
+
